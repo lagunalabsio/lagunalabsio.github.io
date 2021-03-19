@@ -135,7 +135,7 @@ p{
   text-align: right;
 }
 .social_icon_div img{
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .devide_line{
   width: 31rem;
@@ -368,11 +368,62 @@ p{
   }
 }
 @media (max-width: 500px) {
+  .row.header {
+    margin-top: -2.5rem;
+    position: relative;
+    left: -1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu_icon_div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .devide_line {
+    position: relative;
+    left: -1rem;
+  }
+  .gradiant_horizontal {
+    height: 500px;
+  }
   .desktop-container{
-    padding: 0 2rem;
+    padding: 0 1rem;
+  }
+  .vertical-line-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    position: relative;
+  }
+  .vertical-line-container .col-3 {
+    position: absolute;
+  }
+  .vertical-line-container .col-2 {
+    padding: 0;
+  }
+  .vertical-line-container .circle-1 {
+    top: 235px;
+    left: -30px;
+  }
+  .line-2>div:nth-child(2){
+    /* position: relative; */
+    left: 60px;
+  }
+  .vertical-line-container .circle-3 {
+    top: -50px;
+    right: -10px;
+  }
+  .vertical-line-container .line-1{
+    position: relative;
+    left: -25px;
+  }
+  .vertical-line-container .line-3 {
+    position: relative;
+    right: -25px;
   }
   .mobile-container{
-    width: calc(100% - 4rem)!important;
+    width: calc(100% - 2rem)!important;
+    margin-top: -2.5rem;
   }
   .devide_line{
     width: 11rem;
@@ -383,9 +434,51 @@ p{
   .xrenginLogImg{
     width: 100%;
   }
+  .social_icon_div {
+    display: flex;
+    justify-content: space-between;
+  }
   .social_icon_div object{
     width: 40px;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
+  }
+  .mission_txt_title {
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+  }
+  .full-name-inputs {
+    margin-top: -40px;
+  }
+  #get_touch_div {
+    background: radial-gradient(361.37% 94.92% at 0% 100%, #160B2E 0%, #050012 100%);
+    border-radius: 120px;
+  }
+}
+@media (max-width: 376px) {
+  .desktop-container{
+    padding: 0 1rem;
+  }
+  .vertical-line-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+  }
+  .mobile-container {
+    margin-top: -3rem;
+  }
+  .social_icon_div img{
+    margin-left: 0;
+  }
+  .menu-div-item {
+    margin-top: -0.3rem;
+  }
+}
+@media (max-width: 330px) {
+  .vertical-line-container{
+    margin-top: 50px;
+  }
+  .menu-div-item {
+    margin-top: -1rem;
   }
 }
 

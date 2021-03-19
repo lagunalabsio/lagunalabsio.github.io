@@ -56,18 +56,18 @@ export default function Home() {
         <main className={styles.main}>
             <div className={[styles.first_container,styles.subcontainer].join(" ")}
             style={{"backgroundImage":"url('images/background-1.jpeg')"}}>
-                <div className="row pt-5rem pb-2">
+                <div className="row pt-5rem pb-2 header">
                     <div className="col-10">
                         <div className="desktop-container">
                             <span className={styles.logo_title_gradiant}>LAGUNA </span> 
                             <span className={[styles.logo_title_gradiant, styles.white_font].join(" ")}>LABS</span>
                         </div>
                     </div>
-                    {/* <div className="col-2 menu_icon_div">
+                    <div className="col-2 menu_icon_div">
                         <button className={styles.menu_btn} onClick={showModal}>
                             <FontAwesomeIcon icon={faBars} className={styles.menu_icon}/>
                         </button>
-                    </div> */}
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col">
@@ -106,7 +106,7 @@ export default function Home() {
                         <div className="pt-4 desktop-container">
                             <p className="main-text line_3_txt">
                                 We all need to do business and stay connected to loved ones, regardless of what's happening in the world outside. Our applications
-                                are immediates, lightweight, and designed to reach peopel on the devices have today as well as the devices they'll have tomorrow
+                                are immediates, lightweight, and designed to reach people on the devices thay have today as well as the devices they'll have tomorrow
                             </p>
                         </div>
                     </div>
@@ -114,31 +114,31 @@ export default function Home() {
             </div>
             <div className={styles.second_container}>
                 
-                <div className="row desktop-container">
-                    <div className="col-3">
+                <div className="row desktop-container vertical-line-container">
+                    <div className="col-3 circle-1">
                         <div className={styles.middle_component_circle_1}></div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2 line-1">
                         <div className={styles.middle_component_line_div_1}>
                             <div className={styles.middle_component_line_gap_1}></div>
                             <object className={styles.middle_component_line_1} data="images/polygon_1.svg" type="image/svg+xml"/>
                         </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2 line-2">
                         <div className={styles.middle_component_line_div_2}>
                             <div className={styles.middle_component_line_gap_2}></div>
                             <object data="images/polygon_2.svg" type="image/svg+xml"/>
                         </div>
                         <div className={styles.middle_component_circle_2}></div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2 line-3">
                         <div className={styles.middle_component_line_div_3}>
                             <div className={styles.middle_component_line_gap_1}></div>
                             <object className={styles.middle_component_line_1} data="images/polygon_1.svg" type="image/svg+xml"/>
                         </div>
                     </div>
                     
-                    <div className="col-3">
+                    <div className="col-3 circle-3">
                         <div className={styles.middle_component_circle_3}></div>
                     </div>
                 </div>

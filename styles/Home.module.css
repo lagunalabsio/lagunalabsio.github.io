@@ -175,15 +175,19 @@
 .middle_component_line_gap_1{
   width: 16px;
   height: 27px;
-  background: rgba(82, 54, 255, 0.1);
   backdrop-filter: blur(64px);
+  background-image: url(/images/rocket-line.svg);
+  background-position: left -2px bottom -1px;
+  background-repeat: no-repeat;
   margin: 0 auto -30px;
 }
 .middle_component_line_gap_2{
   width: 17px;
   height: 27px;
-  background: rgba(82, 54, 255, 0.1);
   backdrop-filter: blur(64px);
+  background-image: url(/images/rocket-line.svg);
+  background-position: left -2px bottom -1px;
+  background-repeat: no-repeat;
   margin: 0 auto -30px;
 }
 .middle_component_line_div_2{
@@ -305,7 +309,15 @@
 }
 @media (max-width: 500px) {
   .first_container{
-    background-position: -550px -200px;
+    background-size: 900px;
+    background-position: -340px 30px;
+    z-index: 20;
+  }
+  .line_30_degree_group {
+    margin-top: -2rem;
+  }
+  .main_carousel{
+    margin-top: 200px;
   }
   .big_text{
     font-size: 4.5rem;
@@ -317,10 +329,29 @@
   .second_container{
     padding: 230px 0;
   }
+  .footer{
+    height: 350px;
+    padding-top: 150px;
+    margin-top: -10px;
+  }
 }
 @media (max-width: 420px) {
-  .first_container{
-    background-position: -600px -200px;
+  .big_text{
+    font-size: 4rem;
+    line-height: 5rem;
   }
-  
+  .contact_input_div > div.row {
+    padding-top: -20px;
+  }
+}
+@media (max-width: 330px) {
+  .big_text{
+    font-size: 3.5rem;
+  }
+  .line_30_degree_group {
+    margin-top: 0.2rem;
+  }
+  .main_carousel{
+    margin-top: 230px;
+  }
 }
