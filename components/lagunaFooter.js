@@ -23,7 +23,7 @@ export default class LagunaFooter extends Component{
                         <a href="https://www.linkedin.com/company/lagunalabs" target="_blank">
                             <img src="images/email.svg"/>
                         </a>
-                        <a href="https://github.com/xr3ngine" target="_blank">
+                        <a href="https://github.com/XRFoundation" target="_blank">
                             <img src="images/github.svg"/>
                         </a>
                     </div>
